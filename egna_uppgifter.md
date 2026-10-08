@@ -28,8 +28,16 @@ Samma som övning 1 men nu är det med två tärningar.
 
 **Lösning:**
 
-Två tärningar ger två olika ögontal (som i övning 1, där de två dragna kulorna har olika färger):
+Analogin med övning 1 håller inte helt. Kulorna är 6 olika föremål, så ett par kan aldrig bestå av samma kula två gånger. Tärningarna kan däremot visa samma ögontal (t.ex. två sexor), så kombinationer med upprepning är tillåtna.
 
-$$\binom{6}{2} = 15$$
+Ordningen spelar fortfarande ingen roll (en 2:a och en 5:a är samma utfall som en 5:a och en 2:a). Antalet sätt att välja $k$ av $n$ med upprepning, utan hänsyn till ordning, är:
 
-Om båda tärningarna även får visa samma ögontal (t.ex. två sexor) tillkommer 6 par, totalt $15 + 6 = 21$. Det kan också skrivas som $\binom{6+2-1}{2} = \binom{7}{2} = 21$.
+$$\binom{n+k-1}{k}$$
+
+Här är $n = 6$ (ögontal) och $k = 2$ (tärningar):
+
+$$\binom{6+2-1}{2} = \binom{7}{2} = \frac{7!}{2!\,5!} = \frac{7 \cdot 6}{2 \cdot 1} = 21$$
+
+Kontroll: 15 par med olika ögontal (som i övning 1) plus 6 par med samma ögontal ger $15 + 6 = 21$.
+
+Det finns alltså **21** olika kombinationer.
