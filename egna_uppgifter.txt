@@ -1,0 +1,21 @@
+Mina egna uppgifter jag skapat för att läsa själv.
+
+* Statistik
+
+Övning 1:
+Det finns 6 kulor, alla i olika färger. Inför varje dragning lägger du tillbaka kulorna. Du drar 2 kulor åt gången och antecknar färgerna. Hur många olika färgpar kan du få?  
+Ordningen spelar ingen roll: att dra en röd och sedan en gul räknas som samma färgpar som att dra en gul och sedan en röd.
+
+Lösning:
+
+Du använder binomialkoefficienten.
+CLAUDE: Fixa latex formateringen for n över k och ge formeln för att lösa den.
+Samt lös ut 6 över två som ska bli 15.
+
+Övning 2:
+
+Samma som övning 2 men nu är det med två tärningar.
+
+
+
+
