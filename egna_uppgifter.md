@@ -41,3 +41,8 @@ $$\binom{6+2-1}{2} = \binom{7}{2} = \frac{7!}{2!\,5!} = \frac{7 \cdot 6}{2 \cdot
 Kontroll: 15 par med olika ögontal (som i övning 1) plus 6 par med samma ögontal ger $15 + 6 = 21$.
 
 Det finns alltså **21** olika kombinationer.
+
+3.
+
+Hur många sätt finns det att välja 0 kort ur en kortlek av 52?
+
